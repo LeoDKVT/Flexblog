@@ -19,7 +19,7 @@ img {
 
 
 .info-bg {
-    background-color: blue;
+    background-color: #122ab2;
     color: white;
 }
 
@@ -39,3 +39,86 @@ img {
     color: white;
 }
 
+/*menu*/
+.menu-bg {
+    background-color: #2c70ff;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.menu-nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
+}
+
+/*introdução*/
+.introducao {
+    font-size: 3em;
+    margin: 0 auto;
+    line-height: 1;
+    max-width: 960px;
+    padding: 60px 10px;
+}
+
+/*sobre*/
+.sobre {
+    border-top: 2px solid #122ab2;
+    border-bottom: 2px solid #122ab2;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-info h2 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre img {
+    
+    padding: 0px 10px;
+}
